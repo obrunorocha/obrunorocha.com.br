@@ -3,7 +3,7 @@ date: 2020-06-11
 title: Next Level Week - Ecoleta
 description: Projeto de localização de pontos de coleta de materiais recicláveis
 badges: [nodejs, react, react native, expo]
-img: /assets/img/nextlevelweek1.webp
+img: /assets/img/nextlevelweek.webp
 page: projetos
 ---
 ![Ecoleta](/assets/img/ecoleta.webp)
