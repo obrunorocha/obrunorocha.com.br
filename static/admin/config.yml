@@ -2,7 +2,7 @@ backend:
   name: github
   repo: obrunorocha/obrunorocha.com.br
   branch: master
-  site_domain: https://obrunorocha.com.br/
+  site_domain: obrunorocha.com.br
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
