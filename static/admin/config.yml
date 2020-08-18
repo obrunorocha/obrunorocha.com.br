@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: obrunorocha/obrunorocha.com.br
+  branch: master
+  site_domain: https://obrunorocha.com.br/
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD'}
+      - {label: "Image", name: "img", widget: "image"}
+      - {
+          label: "badges", 
+          name: "badges", 
+          widget: "list",
+          default: ["bootstrap", "css", "expo", "filmes", "gatsby", "git", "html", "imagens", "javascript", "materialize", "nodejs", "native", "outros", "php", "react", "sass", "series", "web", "wordpress"]
+        }
+      - {label: "Page", name: "page", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "projetos" # Used in routes, e.g., /admin/collections/blog
+    label: "Projetos" # Used in the UI
+    folder: "projetos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD'}
+      - {label: "Image", name: "img", widget: "image"}
+      - {
+        label: "badges", 
+        name: "badges", 
+        widget: "list",
+        default: ["bootstrap", "css", "expo", "filmes", "gatsby", "git", "html", "imagens", "javascript", "materialize", "nodejs", "native", "outros", "php", "react", "sass", "series", "web", "wordpress"]
+      }
+      - {label: "Page", name: "page", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
