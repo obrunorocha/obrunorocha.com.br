@@ -7,7 +7,7 @@ const Contact = () => (
       <S.Row className="pt-5">
         <h1>Contato</h1>
         <p>Entre em contato comigo usando o formulário abaixo, ou envie um e-mail para: <strong>obrunorocha@outlook.com</strong></p>
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="contact-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <S.Row>
             <S.ColMedium>
               <S.TextInput placeholder="Nome" aria-label="Nome" name="nome"/>
