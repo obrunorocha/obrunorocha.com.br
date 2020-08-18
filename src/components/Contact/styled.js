@@ -35,7 +35,6 @@ export const Textarea = styled.textarea.attrs(props => ({
   placeholder: "Mensagem"
 }))``
 
-export const Button = styled.button.attrs(props => ({
-  type: "submit", 
+export const Button = styled.button.attrs(props => ({ 
   className:"btn btn-light border-secondary"
 }))``
