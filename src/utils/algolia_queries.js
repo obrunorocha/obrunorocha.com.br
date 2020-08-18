@@ -1,5 +1,6 @@
 const postsQuery = `{
-  posts: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}){
+  posts: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}), 
+    filter: {frontmatter: {page: {eq: "blog"}}}){
     edges {
       node {
         objectID: id
