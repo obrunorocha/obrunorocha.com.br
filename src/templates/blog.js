@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 import * as S from '../components/Blog/styled'
 import PostItem from "../components/PostItem"
 import Pagination from '../components/Pagination'
-import PostFeature from '../components/PostFeature'
 
 const Blog = props => {
   const postList = props.data.allMarkdownRemark.edges
