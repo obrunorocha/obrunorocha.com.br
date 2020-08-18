@@ -3,7 +3,7 @@ date: 2020-08-18
 title: '🎉Primeiro Post'
 description: Este é o meu primeiro post aqui
 badges: [web, gatsby, outros]
-img: /assets/img/helloworld.jpeg
+img: /assets/img/helloworld.webp
 page: blog
 ---
 
@@ -17,7 +17,7 @@ No site do ***<a href="https://gatsbyjs.com" target="_blank">Gatsby</a>*** ele d
 
 *"Gatsby é uma estrutura de código aberto baseada no React para a criação de sites e aplicativos. Construa qualquer coisa que você possa imaginar com mais de 2.000 plug-ins e desempenho, escalabilidade e segurança integrados por padrão."*
 
-![alt Site anterior](/assets/img/siteantigo.png "Site Anterior")
+![alt Site anterior](/assets/img/siteantigo.webp "Site Anterior")
 
 O meu site anterior foi feito em Html, Css e Javascript, afinal de contas era apenas uma página estática com um formulário de contato e informações sobre mim.
 

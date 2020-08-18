@@ -3,7 +3,7 @@ date: 2020-02-07
 title: Template Cardgame
 description: Uma página Landing Page de um jogo cardgame
 badges: [css, html, javascript]
-img: /assets/img/cardgame.png
+img: /assets/img/cardgame.webp
 page: projetos
 ---
 
