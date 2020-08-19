@@ -1,9 +1,11 @@
 import React from "react"
+import SEO from "../components/seo"
 import GlobalStyles from '../styles/global'
 import * as S from '../components/Contact/styled'
 
 const Thanks = () => (
   <>
+    <SEO title="Mensagem enviada!"/>
     <GlobalStyles />
     <S.ThanksContainer>
       <S.Title>Mensagem enviada com sucesso!</S.Title>
