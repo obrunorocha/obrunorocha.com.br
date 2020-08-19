@@ -56,7 +56,7 @@ export const ThanksButton = styled(Link).attrs(props => ({
 }))``
 
 export const Title = styled.h1`
-  font-size: 130px;
+  font-size: 50px;
   @media(max-width: 600px){
     font-size: 70px;
   }

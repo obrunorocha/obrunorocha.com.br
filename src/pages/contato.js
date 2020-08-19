@@ -54,17 +54,17 @@ export default class Contact extends React.Component {
                 onSubmit={this.handleSubmit}
               >
                 <input type="hidden" name="form-name" value="contact"/>
-                <input name="bot-field" onChange={this.handleChange}/>
+                <input type="hidden" name="bot-field" onChange={this.handleChange}/>
                 <S.Row>
                   <S.ColMedium>
-                    <S.TextInput type="text" name="name" onChange={this.handleChange} />
+                    <S.TextInput type="text" name="name" placeholder="Nome" onChange={this.handleChange} />
                   </S.ColMedium>
                   <S.ColMedium>
-                    <S.TextInput type="email" name="email" onChange={this.handleChange} />
+                    <S.TextInput type="email" name="email" placeholder="Email" onChange={this.handleChange} />
                   </S.ColMedium>
                 </S.Row>
                 <S.ColDefault>
-                  <S.TextInput name="subject" onChange={this.handleChange} />
+                  <S.TextInput name="subject" placeholder="Assunto" onChange={this.handleChange} />
                 </S.ColDefault>
                 <S.ColDefault>
                   <S.Textarea name="message" rows="3" onChange={this.handleChange} />
