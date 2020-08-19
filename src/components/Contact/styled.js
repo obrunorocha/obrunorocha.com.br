@@ -51,7 +51,7 @@ export const ThanksContainer = styled.div.attrs(props => ({
   height: 100vh;
 `
 
-export const Button = styled(Link).attrs(props => ({
+export const ThanksButton = styled(Link).attrs(props => ({
   className: "btn btn-light border-secondary"
 }))``
 

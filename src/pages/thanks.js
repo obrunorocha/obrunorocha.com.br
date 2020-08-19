@@ -8,7 +8,7 @@ const Thanks = () => (
     <S.ThanksContainer>
       <S.Title>Mensagem enviada com sucesso!</S.Title>
       <S.Description>Obrigado pelo contato, em breve irei responder a sua mensagem!</S.Description>
-      <S.Button to="/contato" >Voltar</S.Button>
+      <S.ThanksButton to="/contato" >Voltar</S.ThanksButton>
     </S.ThanksContainer>
   </Layout>
 )
