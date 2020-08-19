@@ -1,5 +1,6 @@
 import React from "react"
-import GlobalStyles from '../../styles/global'
+import GlobalStyles from '../styles/global'
+import Layout from "../components/Layout"
 import * as S from '../components/Contact/styled'
 
 const Thanks = () => (
