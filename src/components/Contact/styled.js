@@ -40,7 +40,7 @@ export const Button = styled.button.attrs(props => ({
   className:"btn btn-light border-secondary"
 }))``
 
-export const Container = styled.div.attrs(props => ({
+export const ThanksContainer = styled.div.attrs(props => ({
   className: "container"
 }))`
   display: flex;
