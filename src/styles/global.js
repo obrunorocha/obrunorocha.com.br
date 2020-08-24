@@ -160,6 +160,11 @@ footer {
   color: #ffffff;
 }
 
+.github{
+  background-color: #181717;
+  color: #ffffff;
+}
+
 .php {
   background-color: #777BB4;
   color: #ffffff;
