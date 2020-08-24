@@ -2,7 +2,7 @@
 title: Como fazer um README.md personalizado no Github
 description: Saiba como destacar o seu perfil no Github
 date: 2020-08-24
-img: assets/img/readme.webp
+img: assets/img/readmecapa.webp
 badges:
   - github
   - html
