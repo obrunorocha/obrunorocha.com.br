@@ -44,4 +44,28 @@ Uma forma de encontrar o link de uma imagem de logotipo é trocar o nome neste l
 https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white
 ```
 
-No código acima, onde esta escrito Linkedin, podemos trocar por outro nome de logo, por exemplo Facebook, é só ir trocando pelo os logos que você desejar que ele faz a alteração, ou utilizar o Simple Icons para encontrar o logo que você deseja.
+No código acima, onde esta escrito &logo=linkedin, podemos trocar por outro nome de logo, por exemplo facebook, é só ir trocando pelo os logos que você desejar que ele faz a alteração, ou utilizar o Simple Icons para encontrar o logo que você deseja.
+
+## Adicionando Github README Stats
+
+![Github README Stats](assets/img/mostusedlanguages.webp "Github README Stats")
+
+Para colocar status do repositório, neste <a href="https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_pt-BR.md" alt="Stats" rel="noopener noreferrer" target="_blank">**repositório**</a>
+
+Temos vários exemplos de personalização, você pode personalizar escolhendo um tema diferente para ser colocado no repositório, alterar a cor de fundo dos icones, do título, esse componente é bem bacana para passar essas informações do jeito que você gosta.
+
+## Outros conteúdos adicionais
+
+![atividades recentes](assets/img/atividades-adicionais.webp "atividades recentes")
+
+Para fazer este estilo, é neste <a href="https://github.com/anmol098/waka-readme-stats" alt="Atividades Recentes" rel="noopener noreferrer" target="_blank">**repositório**</a>
+
+![atividades recentes lista](assets/img/recentactivity.webp "atividades recentes lista")
+
+E neste <a href="https://github.com/jamesgeorge007/github-activity-readme" alt="Atividades Recentes" rel="noopener noreferrer" target="_blank">**repositório**</a>
+
+## Gerador de repositório
+
+Agora se você prefere preencher um formulário e no final ter o seu README pronto, basta entrar nesse <a href="https://rahuldkjain.github.io/gh-profile-readme-generator/" alt="Atividades Recentes" rel="noopener noreferrer" target="_blank">**link**</a>
+
+Basicamente é isso, com essas opções você consegue criar e personalizar o seu repositório de uma maneira bem bacana e profissional.
