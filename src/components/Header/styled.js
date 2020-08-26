@@ -10,7 +10,7 @@ export const Navbar = styled.nav.attrs(props => ({
 }))``
 
 export const NavbarBrand = styled(AniLink).attrs(props => ({
-  className: "navbar-brand"
+  className: "navbar-brand",
 }))``
 
 export const Button = styled.button.attrs(props => ({

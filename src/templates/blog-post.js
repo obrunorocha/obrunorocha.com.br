@@ -6,6 +6,9 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import Comments from "../components/Comments"
+import Icons from '../components/SocialLinks/Icons'
+
+const ArrowUp = Icons.ArrowUp
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
@@ -18,7 +21,6 @@ const BlogPost = ({ data, pageContext }) => {
     <S.PostImage>
       <img src={post.frontmatter.img} alt={post.frontmatter.title}/>
     </S.PostImage>
-         
     <S.Container>
       <S.Row className="pt-5">
         <S.ColDefault>
@@ -27,7 +29,7 @@ const BlogPost = ({ data, pageContext }) => {
           <p>{post.frontmatter.description}</p>
           <div dangerouslySetInnerHTML={{__html: post.html}}></div>
             {post.frontmatter.badges.map(badge => (
-            <S.Tag className={badge}>{badge}</S.Tag>
+            <S.Tag key={badge} className={badge}>{badge}</S.Tag>
             ))}
         </S.ColDefault>
       </S.Row>
@@ -40,6 +42,9 @@ const BlogPost = ({ data, pageContext }) => {
         </S.ColDefault>
       </S.Row>  
     </S.Container>
+    <button className="scrollTop" onClick={() => { window.scroll({ top: 0, behavior: 'smooth' })}} title="Ir para o Topo">
+      <ArrowUp width={35}/>
+    </button>
   </Layout>
   )
 }

@@ -26,7 +26,7 @@ const ProjetoPost = ({ data, pageContext }) => {
           <p>{post.frontmatter.description}</p>
           <div dangerouslySetInnerHTML={{__html: post.html}}></div>
             {post.frontmatter.badges.map(badge => (
-            <S.Tag className={badge}>{badge}</S.Tag>
+            <S.Tag key={badge} className={badge}>{badge}</S.Tag>
             ))}
         </S.ColDefault>
       </S.Row>

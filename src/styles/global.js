@@ -248,5 +248,24 @@ footer {
   font-size: 1.125rem;
 }
 
+.scrollTop{
+  display: block;
+  position: fixed;
+  height: 45px;
+  background: var(--colorFont);
+  border-radius: 10px 0 0 10px;
+  border: 1px solid var(--colorFont);
+  top: 75%;
+  right: 0;
+  color: var(--bg);
+  z-index: 1;
+}
+
+.scrollTop:hover{
+  color: var(--colorFont);
+  background: var(--area);
+  border: 1px solid var(--colorFont);
+}
+
 `
 export default GlobalStyles

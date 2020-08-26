@@ -8,6 +8,7 @@ import { Netlify } from '@styled-icons/simple-icons/Netlify'
 import { Menu } from '@styled-icons/material/Menu'
 import { Search } from '@styled-icons/ionicons-sharp/Search'
 import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
+import { KeyboardArrowUp as ArrowUp } from '@styled-icons/material/KeyboardArrowUp'
 
 const Icons = {
   Github, 
@@ -19,7 +20,8 @@ const Icons = {
   Netlify,
   Menu,
   Search,
-  Light
+  Light,
+  ArrowUp,
 }
 
 export default Icons
