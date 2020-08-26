@@ -42,7 +42,7 @@ const BlogPost = ({ data, pageContext }) => {
         </S.ColDefault>
       </S.Row>  
     </S.Container>
-    <button className="scrollTop" onClick={() => { window.scroll({ top: 0, behavior: 'smooth' })}} title="Ir para o Topo">
+    <button className="scrollTop d-none d-sm-block" onClick={() => { window.scroll({ top: 0, behavior: 'smooth' })}} title="Ir para o Topo">
       <ArrowUp width={35}/>
     </button>
   </Layout>

@@ -255,7 +255,7 @@ footer {
   background: var(--colorFont);
   border-radius: 10px 0 0 10px;
   border: 1px solid var(--colorFont);
-  top: 75%;
+  top: 65%;
   right: 0;
   color: var(--bg);
   z-index: 1;
