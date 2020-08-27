@@ -1,12 +1,13 @@
 ---
-date: 2020-08-24
-title: 'Como fazer um README.md personalizado no Github'
+title: Como fazer um README.md personalizado no Github
 description: Saiba como destacar o seu perfil no Github
-badges: [github, html]
+date: 2020-08-24
 img: /assets/img/readmecapa.webp
+badges:
+  - github
+  - html
 page: blog
 ---
-
 O GitHub é uma plataforma onde hospedamos nossos códigos e projetos, mas já faz algum tempo que eles disponibilizaram um recurso onde podemos, personalizar o nosso perfil no github. Desta forma:
 
 ![Github Profile](assets/img/readme.webp "Github Profile")
@@ -29,13 +30,13 @@ No site <a href="https://shields.io/" alt="Shields.io" rel="noopener noreferrer"
 
 <img src="https://img.shields.io/badge/badge-este%20%C3%A9%20um%20badge-red" alt="badge"/>
 
-Já <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile" alt="Badges4" rel="noopener noreferrer" target="_blank"> **neste repositório**</a> temos alguns badges pré prontos com imagens, o repositório esta bem organizado com alguns exemplos separados por categoria, alguns deles são: social, streaming, games, skills e etc. Um exemplo do que temos lá:
+Já neste<a href="https://github.com/alexandresanlim/Badges4-README.md-Profile" alt="Badges4" rel="noopener noreferrer" target="_blank">**repositório**</a> temos alguns badges pré prontos com imagens, o repositório esta bem organizado com alguns exemplos separados por categoria, alguns deles são: social, streaming, games, skills e etc. Um exemplo do que temos lá:
 
 <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
 
 ## Adicionando cores e imagens svg
 
-O site <a href="https://simpleicons.org/" alt="Simple Icons" rel="noopener noreferrer" target="_blank">Simple Icons</a> possui uma variedade enorme de icones de logos de diversos tipos, com o código das cores do logo das empresas logo abaixo, basta fazer uma busca rápida que encontramos as cores para colocarmos nos nossos badges.
+O site <a href="https://simpleicons.org/" alt="Simple Icons" rel="noopener noreferrer" target="_blank">**Simple Icons**</a> possui uma variedade enorme de ícones de logos de diversos tipos, com o código das cores do logo das empresas logo abaixo, basta fazer uma busca rápida que encontramos as cores para colocarmos nos nossos badges.
 
 Uma forma de encontrar o link de uma imagem de logotipo é trocar o nome neste link de imagem:
 
@@ -51,7 +52,7 @@ No código acima, onde esta escrito &logo=linkedin, podemos trocar por outro nom
 
 Para colocar status do repositório, neste <a href="https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_pt-BR.md" alt="Stats" rel="noopener noreferrer" target="_blank">**repositório**</a>
 
-Temos vários exemplos de personalização, você pode personalizar escolhendo um tema diferente para ser colocado no repositório, alterar a cor de fundo dos icones, do título, esse componente é bem bacana para passar essas informações do jeito que você gosta.
+Temos vários exemplos de personalização, você pode personalizar escolhendo um tema diferente para ser colocado no repositório, alterar a cor de fundo dos ícones, do título, esse componente é bem bacana para passar essas informações do jeito que você gosta.
 
 ## Outros conteúdos adicionais
 
