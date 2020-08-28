@@ -19,8 +19,12 @@ h3 {
 }
 
 p {
-  font-size: 1.12rem;
-  font-weight: 400;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+button:focus{
+  outline: none;
 }
 
 @media (max-width: 1200px) {
