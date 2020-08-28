@@ -28,11 +28,11 @@ Se você não sabe editar um arquivo markdown, <a href="https://guides.github.co
 
 No site <a href="https://shields.io/" alt="Shields.io" rel="noopener noreferrer" target="_blank">**shields.io**</a> você pode criar um badge da maneira que desejar, é simples e fácil, os badges são desse jeito:
 
-![badge](https://img.shields.io/badge/badge-este%20%C3%A9%20um%20badge-red)
+![badge](https://img.shields.io/badge/badge-este%20%C3%A9%20um%20badge-red "Badge")
 
-Já neste<a href="https://github.com/alexandresanlim/Badges4-README.md-Profile" alt="Badges4" rel="noopener noreferrer" target="_blank">**repositório**</a> temos alguns badges pré prontos com imagens, o repositório esta bem organizado com alguns exemplos separados por categoria, alguns deles são: social, streaming, games, skills e etc. Um exemplo do que temos lá:
+Já neste <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile" alt="Badges4" rel="noopener noreferrer" target="_blank">**repositório**</a> temos alguns badges pré prontos com imagens, o repositório esta bem organizado com alguns exemplos separados por categoria, alguns deles são: social, streaming, games, skills e etc. Um exemplo do que temos lá:
 
-![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)
+![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white "Linkedin")
 
 ## Adicionando cores e imagens svg
 
