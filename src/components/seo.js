@@ -35,32 +35,24 @@ function SEO({ description, lang, meta, title, image }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
-          name: `abstract`,
-          content: `Desenvolvedor Front-end Bruno Rocha Sorocaba Tutoriais Programador Web Sorocaba Otimização de Site Sorocaba Posicionamento no Google Sorocaba`,
-        },
-        {
-          name: `keywords`,
-          content: `Desenvolvedor Front-end Bruno Rocha Sorocaba Tutoriais Programador Web Sorocaba Otimização de Site Sorocaba Posicionamento no Google Sorocaba`,
-        },
-        {
-          name: `dc.keywords`,
-          content: `Desenvolvedor Front-end Bruno Rocha Sorocaba Tutoriais Programador Web Sorocaba Otimização de Site Sorocaba Posicionamento no Google Sorocaba`,
-        },
-        {
-          name: `author`,
-          content: `Bruno Rocha - Desenvolvedor Front-end Otimazação de Sites`,
-        },
-        {
           name: `description`,
           content: metaDescription,
         },
         {
-          name: `geo.placename`,
-          content: `Sorocaba, Sorocaba - SP, Brasil`,
+          name: `subject`,
+          content: `Desenvolvimento Front-end`,
         },
         {
-          name: `geo.region`,
-          content: `BR-São Paulo`,
+          name: `google-site-verification`,
+          content: `L8LJsx9Tg8NiZcNcYeiiA_dt_hYNopQNQ67ri2gA3Co`,
+        },
+        {
+          name: `abstract`,
+          content: `Desenvolvedor Front-end Bruno Rocha Sorocaba Tutoriais Programador Web Sorocaba Otimização de Site Sorocaba Posicionamento no Google Sorocaba`,
+        },
+        {
+          name: `topic`,
+          content: `Tecnologia`
         },
         {
           property: `og:site_name`,
@@ -87,6 +79,10 @@ function SEO({ description, lang, meta, title, image }) {
           content: url
         },
         {
+          property: `og:locale`,
+          content: `pt-BR`
+        },
+        {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
@@ -105,6 +101,10 @@ function SEO({ description, lang, meta, title, image }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:url`,
+          content: url
         },
         {
           name: `contactCity`,
@@ -135,8 +135,8 @@ function SEO({ description, lang, meta, title, image }) {
           content: `general`,
         },
         {
-          name: `revisit-after`,
-          content: `7 days`,
+          name: `format-detection`,
+          content: `telephone=no`
         },
         {
           name: `email`,
@@ -153,6 +153,22 @@ function SEO({ description, lang, meta, title, image }) {
         {
           name: `apple-mobile-web-app-capable`,
           content: `yes`,
+        },
+        {
+          name: `apple-mobile-web-app-status-bar-style`,
+          content: `#24292e`,
+        },
+        {
+          name: `apple-mobile-web-app-title`,
+          content: `Bruno Rocha`,
+        },
+        {
+          name: `geo.placename`,
+          content: `Sorocaba, Sorocaba - SP, Brasil`,
+        },
+        {
+          name: `geo.region`,
+          content: `BR-São Paulo`,
         },
         
       ].concat(meta)}

@@ -7,8 +7,8 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `Bruno Rocha`,
-    description: `Site destinado ao conteúdos voltados ao Desenvolvimento Front-end, projetos e outros assuntos`,
+    title: `Bruno Rocha - Desenvolvedor Front-end`,
+    description: `Desenvolvedor Front-End Sorocaba, Web, SEO, Otimização de Sites, Tutoriais de Programação`,
     author: `@obrunorocha`,
     siteUrl: `https://obrunorocha.com.br`,
   },
