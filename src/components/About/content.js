@@ -3,9 +3,6 @@ const skills = [
     name: 'HTML'
   },
   {
-    name: 'Design Responsivo (Mobile First)'
-  },
-  {
     name: 'CSS (Sass, Styled-Components)'
   },
   {
@@ -13,6 +10,9 @@ const skills = [
   },
   {
     name: 'Javascript (React)'
+  },
+  {
+    name: 'Design Responsivo'
   },
   {
     name: 'Gatsby'
