@@ -37,7 +37,9 @@ const Header = () => {
           ))}
           <S.MenuItem>
             <S.MenuLink cover direction="left" duration={0.5} bg={getThemeColor()}  to="/search">
+              {window.innerWidth > 991 ?
               <Search width="24" title="Pesquisar"/>
+              : 'Pesquisar'}
             </S.MenuLink>
           </S.MenuItem>
           <S.MenuItem title="Mudar o tema" onClick={()=>{
@@ -53,7 +55,12 @@ const Header = () => {
               }}>
             <S.MenuLink 
               className={theme}>
-              <Light width="24"/>              
+              {window.innerWidth > 991 ?
+              <Light width="24"/> : 
+              <>
+                Mudar Tema
+              </>
+              }              
             </S.MenuLink>
           </S.MenuItem>
         </S.MenuList>
