@@ -19,7 +19,7 @@ const BlogPost = ({ data, pageContext }) => {
   <Layout>
     <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.img}/>
     <S.PostImage>
-      <img src={post.frontmatter.img} alt={post.frontmatter.title}/>
+      <img src={'/'+ post.frontmatter.img} alt={post.frontmatter.title}/>
     </S.PostImage>
     <S.Container>
       <S.Row className="pt-5">
