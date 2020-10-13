@@ -2,7 +2,7 @@
 title: Netflix Clone
 description: Projeto clone da página inicial do Netflix
 date: 2020-10-13
-img: assets/img/netflixclone.png
+img: /assets/img/netflixclone.png
 badges:
   - javascript
   - nodejs
