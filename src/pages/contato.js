@@ -43,7 +43,7 @@ export default class Contact extends React.Component {
         <S.Wrapper>
           <S.Container>
             <S.Row className="pt-5">
-              <h1>Contact</h1>
+              <h1>Contato</h1>
               <p>Entre em contato comigo usando o formulário abaixo, ou envie um e-mail para: <strong>obrunorocha@outlook.com</strong></p>
               <form
                 name="contact"
